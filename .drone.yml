@@ -10,7 +10,6 @@ pipeline:
       - sleep 10
       - cd todo
       - go get -v
-      - go test -v -cover
 
 service:
   postgres:

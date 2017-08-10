@@ -9,7 +9,6 @@ pipeline:
     commands:
       - docker version
       - docker-compose version
-    privileged: true
 
 service:
   postgres:

@@ -11,6 +11,7 @@ pipeline:
       - docker-compose version
     privileged: true
 
+
 service:
   postgres:
     image: postgres:9.4.5
